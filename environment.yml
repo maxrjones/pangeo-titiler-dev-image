@@ -12,18 +12,18 @@ dependencies:
   - pip:
     - carbonplan_data
     - dask
-    - geojson-pydantic==0.6.2
+    - geojson-pydantic
     - locust
     - locust_plugins
-    - loguru==0.7.0
+    - loguru
     - ndpyramid
-    - papermill==2.4.0
-    - psycopg==3.1.9
-    - psycopg-binary==3.1.9
+    - papermill
+    - psycopg
+    - psycopg-binary
     - psycopg-pool
-    - pypgstac==0.7.9
+    - pypgstac
     - rio_stac<0.7,>=0.6
-    - rio-tiler==4.1.11
+    - rio-tiler
     - statsmodels
     - titiler-pgstac
     - titiler
