@@ -22,7 +22,6 @@ dependencies:
     - psycopg-binary
     - psycopg-pool
     - pypgstac
-    - rio_stac<0.7,>=0.6
     - rio-tiler
     - statsmodels
     - titiler-pgstac
