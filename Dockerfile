@@ -6,3 +6,10 @@ COPY environment.yml /tmp/environment.yml
 RUN mamba env update --prefix ${NB_PYTHON_PREFIX} --file /tmp/environment.yml
 
 COPY --chown=${NB_USER}:${NB_USER} image-tests image-tests
+
+# Use solution from https://github.com/NASA-Openscapes/corn/blob/main/ci/Dockerfile
+# for installing VS Code extensions.
+
+COPY --chown=${NB_USER}:${NB_USER} install-vscode-ext.sh ${HOME}/.kernels/install-vscode-ext.sh
+
+RUN bash ${HOME}/.kernels/install-vscode-ext.sh
