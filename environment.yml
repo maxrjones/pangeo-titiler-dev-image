@@ -8,6 +8,7 @@ dependencies:
   - pytest-asyncio
   - code-server>=3.2
   - jupyter-vscode-proxy
+  - emacs
   - pip
   - pip:
     - carbonplan_data
