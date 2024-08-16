@@ -9,6 +9,7 @@ dependencies:
   - code-server>=3.2
   - jupyter-vscode-proxy
   - emacs
+  - memray
   - pip
   - pip:
     - carbonplan_data
